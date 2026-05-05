@@ -28,10 +28,7 @@ The final dataset had 2987 samples across 5 classes, namely Angry, Food, Isolati
 
 # Model Development
 
-Initially I used a CNN model with 4 blocks
-<img width="521" height="3000" alt="model_viz" src="https://github.com/user-attachments/assets/b64413e0-8ce1-4724-abdf-52d17967bf6b" />
-
-This model trained using Pytorch scored 93%~ accuracy, but after switching to tensorflow and changing the spectrogram converison script from using librosa to a custom script in dart (this was done to remove the dependency on the Flask server and perform all processes locally on phone) the model had significantly lower acuracy of 84%~ therefore I retrained the model again using a 6 block network
+Initially I used a CNN model with 4 blocks. This model trained using Pytorch scored 93%~ accuracy, but after switching to tensorflow and changing the spectrogram converison script from using librosa to a custom script in dart (this was done to remove the dependency on the Flask server and perform all processes locally on phone) the model had significantly lower acuracy of 84%~ therefore I retrained the model again using a 6 block network
 
 
 # Training
